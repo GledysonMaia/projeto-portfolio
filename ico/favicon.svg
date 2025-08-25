@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48"
+   height="48"
+   viewBox="0 0 48 48"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="favicon.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showguides="true"
+     inkscape:zoom="17.1875"
+     inkscape:cx="23.970909"
+     inkscape:cy="22.836364"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1">
+    <sodipodi:guide
+       position="23.214545,24.029091"
+       orientation="0,-1"
+       id="guide1"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="24.029091,39.272727"
+       orientation="1,0"
+       id="guide2"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <rect
+       x="12.3125"
+       y="7"
+       width="23.1875"
+       height="35.125"
+       id="rect8" />
+    <linearGradient
+       id="linearGradient5">
+      <stop
+         style="stop-color:#0000b2;stop-opacity:1;"
+         offset="0"
+         id="stop5" />
+      <stop
+         style="stop-color:#00dae1;stop-opacity:1;"
+         offset="1"
+         id="stop6" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient5"
+       id="linearGradient6"
+       x1="9.4159279"
+       y1="4.5545635"
+       x2="38.230522"
+       y2="43.091877"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     id="layer1">
+    <rect
+       style="fill:url(#linearGradient6);fill-opacity:1;stroke-width:1.16051"
+       id="rect4"
+       width="30"
+       height="40"
+       x="9"
+       y="4"
+       rx="2.3570228"
+       ry="2.2855976" />
+    <text
+       xml:space="preserve"
+       id="text8"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.6667px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect8);display:inline;fill:#ffffff;fill-opacity:1"
+       transform="translate(1.492705,0.018088)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:34.6667px;line-height:0;font-family:'times new roman';-inkscape-font-specification:'times new roman,  Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;fill-opacity:1"
+       x="13.519791"
+       y="35.453148"
+       id="text9"><tspan
+         id="tspan9"
+         x="13.519791"
+         y="35.453148"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:34.6667px;line-height:0;font-family:'times new roman';-inkscape-font-specification:'times new roman,  Bold';text-align:start;text-anchor:start">P</tspan></text>
+  </g>
+</svg>
