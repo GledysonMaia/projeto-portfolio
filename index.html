@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
@@ -46,15 +46,98 @@
       <section id="ficha">
         <img src="imagens/foto.jpg" alt="" class="foto" />
         <h1>Gledyson Fernandes Maia</h1>
-        <p>Eu sou aluno do professor Gustavo Guanabara do Curso em Vídeo. Este cara é uma máquina, é um professor excelente que vem me guiando desde o início da pandemia com os seus curso de tecnologia. Atualmente tenho 15 anos, gosto do mundo da tecnologia, gosto de jogar jogos online (eu perco tempo neles hihihi, estou trabalhando em acabar com esse vício) e gosto de conversar. Estou fazendo o 1º ano do ensino médio no IFRN Campus Mossoró com curso integrado de Informática. Pretendo ser Engenheiro da Computação e fazer uma faculdade para ganhar essa profissão.</p>
+        <p>
+          Eu sou aluno do professor Gustavo Guanabara do Curso em Vídeo. Este
+          cara é uma máquina, é um professor excelente que vem me guiando desde
+          o início da pandemia com os seus curso de tecnologia.
+          <span
+            id="ano"
+            onclick="
+              let data1 = new Date();
+              let data2 = new Date('2010-01-13');
+              let idade = data1.getFullYear() - data2.getFullYear();
+              document.getElementById('ano').innerText =
+                `Atualmente eu tenho ${idade}`;
+            "
+            title="Clique em mim para revelar minha idade atual!"
+            >No tempo que eu estou fazendo esse site, eu tenho 16</span
+          >
+          anos, gosto do mundo da tecnologia, gosto de jogar jogos online (eu
+          perco tempo neles hihihi, estou trabalhando em acabar com esse vício)
+          e gosto de conversar. Estou fazendo o 1º ano do ensino médio no IFRN
+          Campus Mossoró com curso integrado de Informática. Pretendo ser
+          Engenheiro da Computação e fazer uma faculdade para ganhar essa
+          profissão.
+        </p>
         <div id="social">
-          <a href="https://github.com/GledysonMaia/" target="_blank" rel="nofollow" id="gith"><i class="fa-brands fa-github"></i></a>
-          <a href="https://www.instagram.com/gledyson_0917/" target="_blank" rel="nofollow" id="inst"><i class="fa-brands fa-instagram"></i></a>
-          <a href="https://www.youtube.com/@gledyson457" target="_blank" rel="nofollow" id="yout"><i class="fa-brands fa-youtube"></i></a>
-          <a href="https://cursoemvideo.com" target="_blank" rel="nofollow" id="html"><i class="fa-solid fa-code"></i></a>
+          <a
+            href="https://github.com/GledysonMaia/"
+            target="_blank"
+            rel="nofollow"
+            id="gith"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/gledyson_0917/"
+            target="_blank"
+            rel="nofollow"
+            id="inst"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.youtube.com/@gledyson457"
+            target="_blank"
+            rel="nofollow"
+            id="yout"
+            ><i class="fa-brands fa-youtube"></i
+          ></a>
+          <a
+            href="https://cursoemvideo.com"
+            target="_blank"
+            rel="nofollow"
+            id="html"
+            ><i class="fa-solid fa-code"></i
+          ></a>
         </div>
       </section>
-      <section id="detalhes"></section>
+      <section id="detalhes">
+        <article id="video">
+          <h2><i class="fa-solid fa-handshake-simple"></i>Vídeo de teste</h2>
+          <div class="video-container">
+            <iframe
+              width="709"
+              height="399"
+              src="https://www.youtube.com/embed/xN7DEuWLLQs"
+              title="PS1 BIOS Corruptions(read desc) @scares009"
+              frameborder="0"
+              allow="
+                accelerometer;
+                autoplay;
+                clipboard-write;
+                encrypted-media;
+                gyroscope;
+                picture-in-picture;
+                web-share;
+              "
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </article>
+        <!-- Fim article#video -->
+        <article id="skills">
+          <h2><i class="fa-solid fa-brain"></i>Minhas skills</h2>
+        </article>
+        <!-- Fim article#skills -->
+        <article id="formacao">
+          <h2><i class="fa-solid fa-graduation-cap"></i>Formação</h2>
+        </article>
+        <!-- Fim article#formacao -->
+        <article id="projetos">
+          <h2><i class="fa-solid fa-trowel-bricks"></i>Projetos</h2>
+        </article>
+        <!-- Fim article#projetos -->
+      </section>
     </main>
 
     <footer></footer>
